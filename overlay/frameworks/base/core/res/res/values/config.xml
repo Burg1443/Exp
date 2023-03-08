@@ -671,4 +671,11 @@
         <item>org.lineageos.aperture</item>
         <item>org.lineageos.aperture.dev</item>
     </string-array>
+
+    <!-- Whether to cancel fingerprint operation if not idle -->
+    <bool name="config_fpCancelIfNotIdle">true</bool>
+
+    <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
+    <bool name="config_zramWriteback">true</bool>
+
 </resources>
