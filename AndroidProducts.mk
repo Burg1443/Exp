@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_X2.mk
+    $(LOCAL_DIR)/evolution_X2.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_X2-userdebug \
-    spark_X2-eng
+    evolution_X2-userdebug \
+    evolution_X2-eng
