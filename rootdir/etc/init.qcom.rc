@@ -252,6 +252,17 @@ on boot
     # limit discard size to 128MB in order to avoid long IO latency
     write /sys/block/sda/queue/discard_max_bytes 134217728
 
+on init
+    # Update Fastchg FW
+    chmod 0660 /proc/fastchg_fw_update
+    chown system system /proc/fastchg_fw_update
+    write /proc/fastchg_fw_update 1
+
+    # Enable decimal charging
+    chmod 0666 /proc/ui_soc_decimal
+    chown system system /proc/ui_soc_decimal
+    write /proc/ui_soc_decimal 1
+
 # msm specific files that need to be created on /data
 on post-fs-data
     mkdir /data/vendor/misc 01771 system system
