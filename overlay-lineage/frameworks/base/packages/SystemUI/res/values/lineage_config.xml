@@ -14,9 +14,6 @@
     <!-- Color of the FOD view -->
     <color name="config_udfpsColor">#00ffffff</color>
 
-<!-- Whether to cancel fingerprint operation if not idle -->
-    <bool name="config_fpCancelIfNotIdle">true</bool>
-
 <!-- Udfps vendor code -->
     <integer name="config_udfpsVendorCode">0</integer>
 
