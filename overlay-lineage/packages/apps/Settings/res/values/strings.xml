@@ -5,7 +5,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- ROM maintainer name -->
-    <string name="build_maintainer_summary">꧁𓊈𒆜༺𝕳𝖊𝖝𝖊𝖓𝖟𝖎𝖗𝖐𝖊𝖑,{𝕽}༻𒆜𓊉꧂</string>
+    <string name="build_maintainer_summary">꧁𓊈𒆜༺𝓗𝖊𝖝𝖊𝖓𝖟𝖎𝖗𝖐𝖊𝖑,{𝕽}༻𒆜𓊉꧂</string>
     <string name="build_maintainer_telegram">https://t.me/rjdark39evox</string>
 
 </resources>
