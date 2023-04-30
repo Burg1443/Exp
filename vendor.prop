@@ -199,6 +199,7 @@ vendor.gralloc.disable_ubwc=0
 ro.hwui.render_ahead=20
 debug.hwui.renderer=opengl
 debug.sdm.support_writeback=0
+ro.surface_flinger.set_display_power_timer_ms=1000
 
 # IMS
 persist.dbg.volte_avail_ovr=1
